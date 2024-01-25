@@ -1,0 +1,447 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: black;
+}
+
+.main {
+  background-image: url(assets/bg.jpg);
+  background-position: center center;
+  background-size: max(1200px, 100vw);
+  background-repeat: no-repeat;
+  height: 670px;
+  position: relative;
+  box-shadow: inset 0px 0px 200px 90px black;
+}
+
+.main .box {
+  height: 670px;
+  width: 100%;
+  opacity: .45;
+  background-color: black;
+  position: absolute;
+  top: 0;
+}
+
+/* -------------------------------------------------------------------------------- */
+.lang_button {
+  background-color: black;
+  border-radius: 4px;
+  color: white;
+  padding: 5px 12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+}
+
+.red_button {
+  text-decoration: none;
+  background-color: red;
+  border-radius: 4px;
+  color: white;
+  padding: 7px 12px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  transition: .4s ease-in-out;
+}
+
+.red_button:hover {
+  background-color: rgb(216, 8, 8);
+}
+
+/* -------------------------------------------------------------------------------- */
+.nav {
+  max-width: 72vw;
+  justify-content: space-between;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  height: 100px;
+}
+
+.nav img {
+  color: red;
+  width: 140px;
+  position: relative;
+  z-index: 10;
+}
+
+.nav_items {
+  display: flex;
+  gap: 20px;
+}
+
+.nav_button {
+  position: relative;
+  z-index: 10;
+}
+
+/* ---------------------------------------------------------------------------------------------------- */
+.box_content1 {
+  position: relative;
+  z-index: 10;
+  max-width: 70vw;
+  margin: 170px auto;
+  text-align: center;
+}
+
+.box_content2 {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+
+.p0 {
+  color: white;
+  font-size: 3rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  margin: 20px;
+}
+
+.p1 {
+  color: white;
+  font-size: 1.2rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  margin: 20px;
+  letter-spacing: 1px;
+}
+
+#email {
+  background-color: rgb(31, 31, 31);
+  border-radius: 3px;
+  outline: .1px solid white;
+  color: rgb(255, 255, 255);
+  padding: 15px 12px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  width: 300px;
+}
+
+/* ---------------------------------------------------------------------------------------------- */
+.section1 {
+  max-width: 1200px;
+  margin: 100px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section2 {
+  max-width: 1200px;
+  margin: 100px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section_font1 {
+  color: white;
+  font-size: 3rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  margin: 5px 0;
+  padding: 0 10px;
+}
+
+.section_font2 {
+  color: white;
+  font-size: 1.4rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 0 10px;
+}
+
+.right_section1 {
+  position: relative;
+}
+
+.right_section1 img {
+  width: 555px;
+  position: relative;
+  z-index: 10;
+}
+
+.right_section1 video {
+  position: absolute;
+  top: 51px;
+  right: 0;
+  width: 555px;
+}
+
+.downloading_box {
+  display: flex;
+  height: 100px;
+  width: 350px;
+  border: 1px solid white;
+  border-radius: 9px;
+  background-color: black;
+}
+
+.left_section2 {
+  position: relative;
+}
+
+.left_section2 img {
+  position: relative;
+}
+
+.left_section2 .downloading_box {
+  position: absolute;
+  left: 140px;
+  top: 338px;
+}
+
+.left_section2 .downloading_box img {
+  height: 80px;
+  padding: 10px 25px;
+}
+
+.right_section3 {
+  position: relative;
+}
+
+.right_section3 img {
+  width: 555px;
+  position: relative;
+  z-index: 10;
+}
+
+.right_section3 video {
+  position: absolute;
+  top: 31px;
+  right: 111px;
+  width: 338px;
+}
+
+/* ##################################################################################### */
+.info {
+  padding: 50px;
+  max-width: 1100px;
+  max-height: 900px;
+  margin: 9px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.info_box {
+  background-color: rgb(45, 45, 45);
+  padding: 22px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 20px;
+}
+
+.info_box:hover {
+  background-color: rgb(99, 98, 98);
+  cursor: pointer;
+}
+
+/* 
+############################################################################################## */
+
+.footer_main {
+  max-width: 1100px;
+  margin: 50px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer_box {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  margin: 40px;
+}
+
+.footer_items {
+  text-decoration: solid;
+  color: aliceblue;
+}
+
+/* 
+############################################################################################## */
+
+.separation {
+  background-color: rgb(41, 41, 41);
+  height: 7px;
+}
+
+@media screen and (max-width:500px) {
+  .nav {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .nav img {
+    margin-top: 30px;
+    color: red;
+    width: 140px;
+    position: relative;
+    z-index: 10;
+  }
+}
+
+@media screen and (max-width:800px) {
+  .box_content1 {
+    position: relative;
+    z-index: 10;
+    max-width: 70vw;
+    margin: 80px auto;
+    text-align: center;
+  }
+
+  .box_content2 {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .p0 {
+    color: white;
+    ;
+    font-size: 1.5rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    margin: 20px;
+  }
+
+  #email {
+    background-color: rgb(31, 31, 31);
+    border-radius: 3px;
+    outline: .1px solid white;
+    color: rgb(255, 255, 255);
+    padding: 15px 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    width: 200px;
+  }
+}
+
+@media screen and (max-width:950px) {
+
+  .section1 {
+    max-width: 1200px;
+    margin: 100px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section2 {
+    max-width: 1200px;
+    margin: 100px auto;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .right_section1 img {
+    width: 355px;
+    position: relative;
+    z-index: 10;
+  }
+
+  .right_section1 video {
+    position: absolute;
+    top: 51px;
+    right: 0;
+    width: 355px;
+  }
+
+  .left_section1 {
+    text-align: center;
+  }
+
+  .right_section2 {
+    text-align: center;
+  }
+
+  .left_section2 img {
+    position: relative;
+    width: 355px;
+
+  }
+
+  .section_font1 {
+    color: white;
+    padding: 0 20px;
+    font-size: 2rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    margin-bottom: 10px;
+  }
+
+  .section_font2 {
+    padding: 0 20px;
+    color: white;
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .downloading_box {
+    display: none;
+
+  }
+
+  .right_section3 img {
+    width: 355px;
+    position: relative;
+    z-index: 10;
+  }
+
+  .right_section3 video {
+    position: absolute;
+    top: 22px;
+    right: 65px;
+    width: 227px;
+  }
+
+  .info {
+    max-width: 800px;
+    margin: 9px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .footer_main {
+    max-width: 1100px;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+}
