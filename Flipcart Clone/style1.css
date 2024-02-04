@@ -1,0 +1,147 @@
+:root {
+    --main-bg-color: #2874f0;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+footer {
+    height: 9vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 23px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: bolder;
+}
+
+nav ul li a:hover {
+
+    color: #ceeff2;
+
+
+}
+
+nav ul {
+    height: 60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+header {
+    height: 60px;
+    background-color: var(--main-bg-color);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+
+}
+
+.logo img {
+    width: 88px;
+    padding: 0 25px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    width: 30vw;
+    height: 3vw;
+    border-radius: 5px;
+    max-width: 0vw 56vw;
+}
+
+.container {
+    min-height: calc(100vh - 60px - 9vh)
+}
+
+.btn {
+    margin: 0px 0px 0px 9px;
+    height: 24px;
+    width: 60px;
+    color: white;
+    background-color: var(--main-bg-color);
+    border: 2px solid white;
+    border-radius: 7px;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.btn:hover {
+    color: rgb(55, 51, 51);
+    font-weight: 500;
+}
+
+
+
+.card h2 {
+    background-color: #d7e8ea;
+    border: 1px solid rgb(245, 240, 240);
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: smaller;
+    padding: 9px 6px;
+    color: rgb(52, 50, 49);
+    height: 17px;
+
+
+}
+
+.card {
+    max-width: 91vw;
+    margin: auto;
+
+
+}
+
+.card-item {
+
+    display: flex;
+    gap: 10px;
+
+}
+
+.img:hover {
+    width: 150px;
+    height: 150px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.lines {
+    margin-left: 16px;
+    display: flex;
+    gap: 100px;
+}
+
+.slider {
+    display: flex;
+    width: 1445px;
+    margin: 10px;
+    height: 300px;
+    justify-content: center;
+    overflow: hidden;
+
+}
