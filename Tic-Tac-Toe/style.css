@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(bg\ \(2\).jpg);
+    background-size: 1500px;
+}
+
+h1 {
+    font-family: "Honk", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "MORF" 15,
+        "SHLN" 50;
+    text-align: center;
+    font-size: 60px;
+    margin: 10px 0;
+}
+
+h1:hover {
+    color: rgb(13, 164, 246);
+    cursor: pointer;
+}
+
+main {
+    max-width: 500px;
+    margin: 0px auto;
+}
+
+.game {
+    padding: 1px;
+    width: 298px;
+    height: 298px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 9px;
+    box-shadow: 9px 7px 8px 5px black;
+}
+
+.box {
+    background-color: aliceblue;
+    color: black;
+    width: 97px;
+    height: 97px;
+    margin: 1px;
+    border-radius: 9px;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: .4s ease-in-out;
+}
+
+.box:hover {
+    color: white;
+    background-color: rgba(243, 218, 90, 0.93);
+    cursor: pointer;
+}
+.btn {
+    margin: 20px auto;
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#reset_btn {
+    width: 80px;
+    padding: 7px;
+    border-radius: 5px;
+    border: 2px solid black;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(1, 1, 1);
+}
+
+#reset_btn:hover {
+    cursor: pointer;
+    color: black;
+    background-color: grey;
+}
+
+#new_btn {
+    width: 120px;
+    padding: 7px;
+    border-radius: 5px;
+    border: 2px solid black;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(1, 1, 1);
+}
+
+#new_btn:hover {
+    cursor: pointer;
+    color: black;
+    background-color: grey;
+}
+
+
+
+#msg {
+    text-align: center;
+    margin: 30px;
+    color: white;
+    padding: 10px;
+    box-shadow: 8px 10px 0px 0px black;
+    outline: 2px solid black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    background: linear-gradient(100deg, rgb(157, 0, 255), orange);
+    border-radius: 10px;
+}
+
+.hide {
+    display: none;
+}
+
+/* @media screen and (max-width:700px) {
+    h1 {
+        text-align: center;
+        border-radius: 10px;
+        margin: 10px auto;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bolder;
+        font-stretch: expanded;
+        font-size: xx-large;
+        box-shadow: 8px 10px 0px 0px black;
+        width: 300px;
+        background: linear-gradient(100deg, rgb(183, 69, 253), rgb(237, 177, 64));
+
+    }
+} */
