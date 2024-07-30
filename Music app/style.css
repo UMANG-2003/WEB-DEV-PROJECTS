@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Freeman&family=Jaro:opsz@6..72&family=Jersey+10&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Saira:ital,wght@0,100..900;1,100..900&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Freeman&family=Jaro:opsz@6..72&family=Jersey+10&family=Nabla&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Saira:ital,wght@0,100..900;1,100..900&family=Staatliches&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 0px;
+
+}
+
+::-webkit-scrollbar-thumb {
+    background: gray;
+    padding: 0px 8px;
+    border-radius: 5px;
+}
+
+body {
+    transition: 1s;
+}
+
+.black {
+    color: black;
+    border-color: black;
+}
+
+.white {
+    color: white;
+    border-color: white;
+}
+
+.background-color-gray {
+    background-color: gray;
+
+}
+
+.background-color-white {
+    background-color: white;
+}
+
+.flex {
+    display: flex;
+
+}
+
+.btn {
+    border: 1px solid;
+    border-radius: 50%;
+    background: none;
+    margin: 0px 5px;
+    cursor: pointer;
+    padding: 3px 11px;
+}
+
+.btn:hover {
+    background-color: aliceblue;
+    color: black;
+}
+
+body {
+    background-color: black;
+}
+
+h3 {
+    margin: 10px 0px;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.name {
+    margin-top: 10px;
+    font-size: xx-large;
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.left {
+    border-right: 1px solid gray;
+    height: 100vh;
+    width: 20vw;
+}
+
+.title {
+    padding: 10px 30px;
+}
+
+.block {
+    transition:1s;
+    margin: 30px 0px;
+    padding: 10px 20px;
+}
+
+.block ul a li {
+    margin: 5px 0;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 15px;
+    width: 200px;
+    height: 20px;
+    transition: .1s;
+}
+
+.block ul a li:hover {
+    background-color: grey;
+}
+
+.close{
+    display:none;
+}
+
+.right {
+    width: 79vw;
+    padding: 10px 20px;
+    position: relative;
+}
+
+nav {
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 76vw;
+    height: 50px;
+}
+
+
+.search {
+    margin: 0px 5px;
+    background: none;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 10px;
+    width: 300px;
+}
+
+.menu-btn {
+    margin-left: 10px;
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    cursor: pointer;
+}
+
+.dark-mode {
+    position: absolute;
+    top: 3px;
+    left: 4px;
+    filter: grayscale(2);
+    border: none;
+    background: none;
+}
+
+.playlist {
+    margin-top: 50px;
+    height: 270px;
+    border-radius: 20px;
+    width: 77vw;
+    padding: 20px;
+
+}
+
+.boxes {
+    flex: 0 0 auto;
+    border: 3px solid gray;
+    border-radius: 20px;
+    width: 150px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    padding: 8px 9px;
+    background-color: black;
+    position: relative;
+    margin: 0px 10px;
+}
+
+.cards {
+    width: 77vw;
+    justify-content: space-around;
+    align-items: center;
+    overflow: auto;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+}
+
+.card-img {
+    width: 150px;
+    height: 200px;
+    border: none;
+    border-radius: 10px;
+    outline: 2px solid black;
+}
+
+.play {
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    top: 219px;
+    left: 114px;
+}
+
+.next {
+
+    padding: 0 10px;
+    width: 78vw;
+    justify-content: space-between;
+}
+
+.next-prev {
+    border: 1px solid;
+    border-radius: 10px;
+    background: none;
+    padding: 8px 15px;
+    margin: 0px 5px;
+    cursor: pointer;
+    padding: 5px 8px;
+    border-radius: 50%;
+}
+
+.search-bar{
+    position: relative;
+}
+
+.toggle-left{
+    color: gray;
+    display: none;
+    position: absolute;
+    top: 9px;
+    left: -7px;
+}
+
+.profile{
+    border: 2px solid black;
+    width: 170px;
+    background-color: gray;
+    position: absolute;
+    z-index: 10;
+    top: 10vh;
+    left: 68.5vw;
+}
+
+.profile ul a li{
+    font-weight: bolder;
+    font-size:medium;
+    color: white;
+    border: 1px solid white;
+    padding: 5px 10px ;
+}
+.profile ul a li:hover{
+    background-color: white;
+    color: black;
+}
+
+.sqr{
+    top: -7px;
+    left: 77px;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color:gray;
+    transform: rotate(45deg);
+    z-index: -1;
+}
+
+.show{
+    display: none;
+}

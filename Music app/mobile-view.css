@@ -1,0 +1,276 @@
+@media screen and (max-width: 769px) {
+    body {
+        position: relative;
+    }
+
+    .right {
+        width: 95%;
+    }
+
+    .left {
+
+        border: none;
+        transition: .5s;
+        z-index: 10;
+        position: absolute;
+        width: 79vw;
+        background-color: black;
+        color: white;
+        display: none;
+        overflow: auto;
+    }
+
+    .block a {
+        color: white;
+    }
+
+    .block h3 {
+        color: white;
+    }
+
+    .close {
+        display: block;
+        position: absolute;
+        top: 5px;
+        left: 450px;
+    }
+
+    .btn {
+        padding: 3px 11px;
+        margin: 0 3px;
+        font-size: 10px;
+    }
+
+    .search {
+        width: 140px;
+        margin-left: 20px;
+    }
+
+    .boxes {
+        width: 120px;
+        height: 200px;
+    }
+
+    .card-img {
+        width: 120px;
+        height: 150px;
+    }
+
+    .playlist {
+        margin: 20px auto;
+        padding: 10px;
+        height: 230px;
+        border-radius: 20px;
+        width: 94%;
+        overflow-x: scroll;
+    }
+
+    .cards {
+        display: flex;
+        width: max-content;
+    }
+
+    .next {
+        width: 100%;
+        display: none;
+    }
+
+    .next-prev {
+        padding: 2px 5px;
+    }
+
+    nav {
+        width: 86vw;
+    }
+
+    .dark-mode {
+        top: 5px;
+        left: 5px;
+    }
+
+    .toggle-left {
+        display: block;
+    }
+
+    .name {
+        font-size: larger;
+    }
+
+    .play {
+        position: absolute;
+        width: 34px;
+        height: 34px;
+        border: none;
+        border-radius: 50%;
+        cursor: pointer;
+        top: 168px;
+        left: 90px;
+    }
+
+    .profile {
+        border: none;
+        width: 130px;
+        background-color: gray;
+        position: absolute;
+        z-index: 10;
+        top: 20vh;
+        left: 75.5vw;
+    }
+
+    .sqr {
+        top: -7px;
+        left: 56px;
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        background-color: gray;
+        transform: rotate(45deg);
+        z-index: -1;
+    }
+
+    .profile ul a li {
+        font-weight: bolder;
+        font-size: x-small;
+        color: white;
+        border: 1px solid white;
+        padding: 5px 10px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    body {
+        position: relative;
+    }
+
+    .right {
+        width: 89%;
+    }
+
+    .left {
+        border: none;
+        transition: .5s;
+        z-index: 10;
+        position: absolute;
+        width: 89vw;
+        background-color: black;
+        color: white;
+        display: none;
+        overflow: auto;
+    }
+
+    .block a {
+        color: white;
+    }
+
+    .block h3 {
+        color: white;
+    }
+
+    .close {
+        display: block;
+        position: absolute;
+        top: 5px;
+        left: 200px;
+    }
+
+    .btn {
+        padding: 3px 11px;
+        margin: 0 3px;
+        font-size: 10px;
+    }
+
+    .search {
+        width: 140px;
+        margin-left: 20px;
+    }
+
+    .boxes {
+        width: 120px;
+        height: 200px;
+    }
+
+    .card-img {
+        width: 120px;
+        height: 150px;
+    }
+
+    .playlist {
+        margin: 20px auto;
+        padding: 10px;
+        height: 230px;
+        border-radius: 20px;
+        width: 94%;
+        overflow-x: scroll;
+    }
+
+    .cards {
+        display: flex;
+        width: max-content;
+    }
+
+    .next {
+        width: 100%;
+        display: none;
+    }
+
+    .next-prev {
+        padding: 2px 5px;
+    }
+
+    nav {
+        width: 86vw;
+    }
+
+    .dark-mode {
+        top: 5px;
+        left: 5px;
+    }
+
+    .toggle-left {
+        display: block;
+    }
+
+    .name {
+        font-size: larger;
+    }
+
+    .play {
+        position: absolute;
+        width: 34px;
+        height: 34px;
+        border: none;
+        border-radius: 50%;
+        cursor: pointer;
+        top: 168px;
+        left: 90px;
+    }
+
+    .profile {
+        border: none;
+        width: 130px;
+        background-color: gray;
+        position: absolute;
+        z-index: 10;
+        top: 10vh;
+        left: 58vw;
+    }
+
+    .sqr {
+        top: -7px;
+        left: 56px;
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        background-color: gray;
+        transform: rotate(45deg);
+        z-index: -1;
+    }
+
+    .profile ul a li {
+        font-weight: bolder;
+        font-size: x-small;
+        color: white;
+        border: 1px solid white;
+        padding: 5px 10px;
+    }
+}
